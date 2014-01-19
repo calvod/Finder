@@ -21,6 +21,20 @@
 		F1BD89FA188B5580008D51F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD89DC188B5580008D51F1 /* UIKit.framework */; };
 		F1BD8A02188B5580008D51F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1BD8A00188B5580008D51F1 /* InfoPlist.strings */; };
 		F1BD8A04188B5580008D51F1 /* FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD8A03188B5580008D51F1 /* FinderTests.m */; };
+		F1BD8A0E188B55B5008D51F1 /* caviar.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD8A0D188B55B5008D51F1 /* caviar.png */; };
+		F1BD8A11188B5674008D51F1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD8A10188B5674008D51F1 /* LoginViewController.m */; };
+		F1BD8A13188B570A008D51F1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A12188B570A008D51F1 /* FacebookSDK.framework */; };
+		F1BD8A15188B5738008D51F1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A14188B5738008D51F1 /* SystemConfiguration.framework */; };
+		F1BD8A17188B573D008D51F1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A16188B573D008D51F1 /* StoreKit.framework */; };
+		F1BD8A19188B5745008D51F1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A18188B5745008D51F1 /* Security.framework */; };
+		F1BD8A1B188B574B008D51F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A1A188B574B008D51F1 /* QuartzCore.framework */; };
+		F1BD8A1D188B5751008D51F1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A1C188B5751008D51F1 /* MobileCoreServices.framework */; };
+		F1BD8A1F188B5759008D51F1 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A1E188B5759008D51F1 /* libz.1.2.5.dylib */; };
+		F1BD8A21188B575E008D51F1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A20188B575E008D51F1 /* libz.dylib */; };
+		F1BD8A23188B5765008D51F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A22188B5765008D51F1 /* CoreLocation.framework */; };
+		F1BD8A25188B576C008D51F1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A24188B576C008D51F1 /* CFNetwork.framework */; };
+		F1BD8A27188B5774008D51F1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A26188B5774008D51F1 /* AudioToolbox.framework */; };
+		F1BD8A29188B5791008D51F1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A28188B5791008D51F1 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +67,21 @@
 		F1BD89FF188B5580008D51F1 /* FinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinderTests-Info.plist"; sourceTree = "<group>"; };
 		F1BD8A01188B5580008D51F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1BD8A03188B5580008D51F1 /* FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinderTests.m; sourceTree = "<group>"; };
+		F1BD8A0D188B55B5008D51F1 /* caviar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caviar.png; sourceTree = "<group>"; };
+		F1BD8A0F188B5674008D51F1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F1BD8A10188B5674008D51F1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F1BD8A12188B570A008D51F1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		F1BD8A14188B5738008D51F1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F1BD8A16188B573D008D51F1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F1BD8A18188B5745008D51F1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F1BD8A1A188B574B008D51F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F1BD8A1C188B5751008D51F1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F1BD8A1E188B5759008D51F1 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		F1BD8A20188B575E008D51F1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F1BD8A22188B5765008D51F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F1BD8A24188B576C008D51F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F1BD8A26188B5774008D51F1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F1BD8A28188B5791008D51F1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +89,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BD8A27188B5774008D51F1 /* AudioToolbox.framework in Frameworks */,
+				F1BD8A25188B576C008D51F1 /* CFNetwork.framework in Frameworks */,
+				F1BD8A23188B5765008D51F1 /* CoreLocation.framework in Frameworks */,
+				F1BD8A21188B575E008D51F1 /* libz.dylib in Frameworks */,
+				F1BD8A29188B5791008D51F1 /* Parse.framework in Frameworks */,
+				F1BD8A1F188B5759008D51F1 /* libz.1.2.5.dylib in Frameworks */,
+				F1BD8A1D188B5751008D51F1 /* MobileCoreServices.framework in Frameworks */,
+				F1BD8A1B188B574B008D51F1 /* QuartzCore.framework in Frameworks */,
+				F1BD8A19188B5745008D51F1 /* Security.framework in Frameworks */,
+				F1BD8A17188B573D008D51F1 /* StoreKit.framework in Frameworks */,
+				F1BD8A15188B5738008D51F1 /* SystemConfiguration.framework in Frameworks */,
 				F1BD89DB188B5580008D51F1 /* CoreGraphics.framework in Frameworks */,
+				F1BD8A13188B570A008D51F1 /* FacebookSDK.framework in Frameworks */,
 				F1BD89DD188B5580008D51F1 /* UIKit.framework in Frameworks */,
 				F1BD89D9188B5580008D51F1 /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +142,18 @@
 		F1BD89D7188B5580008D51F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1BD8A28188B5791008D51F1 /* Parse.framework */,
+				F1BD8A26188B5774008D51F1 /* AudioToolbox.framework */,
+				F1BD8A24188B576C008D51F1 /* CFNetwork.framework */,
+				F1BD8A22188B5765008D51F1 /* CoreLocation.framework */,
+				F1BD8A20188B575E008D51F1 /* libz.dylib */,
+				F1BD8A1E188B5759008D51F1 /* libz.1.2.5.dylib */,
+				F1BD8A1C188B5751008D51F1 /* MobileCoreServices.framework */,
+				F1BD8A1A188B574B008D51F1 /* QuartzCore.framework */,
+				F1BD8A18188B5745008D51F1 /* Security.framework */,
+				F1BD8A16188B573D008D51F1 /* StoreKit.framework */,
+				F1BD8A14188B5738008D51F1 /* SystemConfiguration.framework */,
+				F1BD8A12188B570A008D51F1 /* FacebookSDK.framework */,
 				F1BD89D8188B5580008D51F1 /* Foundation.framework */,
 				F1BD89DA188B5580008D51F1 /* CoreGraphics.framework */,
 				F1BD89DC188B5580008D51F1 /* UIKit.framework */,
@@ -112,6 +165,7 @@
 		F1BD89DE188B5580008D51F1 /* Finder */ = {
 			isa = PBXGroup;
 			children = (
+				F1BD8A0D188B55B5008D51F1 /* caviar.png */,
 				F1BD89E7188B5580008D51F1 /* FAppDelegate.h */,
 				F1BD89E8188B5580008D51F1 /* FAppDelegate.m */,
 				F1BD89EA188B5580008D51F1 /* Main.storyboard */,
@@ -119,6 +173,8 @@
 				F1BD89EE188B5580008D51F1 /* FViewController.m */,
 				F1BD89F0188B5580008D51F1 /* Images.xcassets */,
 				F1BD89DF188B5580008D51F1 /* Supporting Files */,
+				F1BD8A0F188B5674008D51F1 /* LoginViewController.h */,
+				F1BD8A10188B5674008D51F1 /* LoginViewController.m */,
 			);
 			path = Finder;
 			sourceTree = "<group>";
@@ -232,6 +288,7 @@
 				F1BD89F1188B5580008D51F1 /* Images.xcassets in Resources */,
 				F1BD89E3188B5580008D51F1 /* InfoPlist.strings in Resources */,
 				F1BD89EC188B5580008D51F1 /* Main.storyboard in Resources */,
+				F1BD8A0E188B55B5008D51F1 /* caviar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BD8A11188B5674008D51F1 /* LoginViewController.m in Sources */,
 				F1BD89E5188B5580008D51F1 /* main.m in Sources */,
 				F1BD89E9188B5580008D51F1 /* FAppDelegate.m in Sources */,
 				F1BD89EF188B5580008D51F1 /* FViewController.m in Sources */,
@@ -379,6 +437,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Diego/Desktop/Finder,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Finder/Finder-Prefix.pch";
 				INFOPLIST_FILE = "Finder/Finder-Info.plist";
@@ -392,6 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Diego/Desktop/Finder,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Finder/Finder-Prefix.pch";
 				INFOPLIST_FILE = "Finder/Finder-Info.plist";

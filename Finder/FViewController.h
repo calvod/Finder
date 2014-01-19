@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
-@interface FViewController : UIViewController
+
+
+@interface FViewController : UIViewController {
+    IBOutlet UIImageView *foodPic;
+}
+
+@property (nonatomic, strong) NSMutableArray *productViews;
 
 @end

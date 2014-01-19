@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F168257A188B9721009BA486 /* sorry.png in Resources */ = {isa = PBXBuildFile; fileRef = F1682579188B9721009BA486 /* sorry.png */; };
+		F168257C188BAFE9009BA486 /* whisper.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F168257B188BAFE9009BA486 /* whisper.m4a */; };
+		F168257E188BB072009BA486 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F168257D188BB072009BA486 /* AVFoundation.framework */; };
 		F1BD89D9188B5580008D51F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD89D8188B5580008D51F1 /* Foundation.framework */; };
 		F1BD89DB188B5580008D51F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD89DA188B5580008D51F1 /* CoreGraphics.framework */; };
 		F1BD89DD188B5580008D51F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD89DC188B5580008D51F1 /* UIKit.framework */; };
@@ -35,6 +38,13 @@
 		F1BD8A25188B576C008D51F1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A24188B576C008D51F1 /* CFNetwork.framework */; };
 		F1BD8A27188B5774008D51F1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A26188B5774008D51F1 /* AudioToolbox.framework */; };
 		F1BD8A29188B5791008D51F1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD8A28188B5791008D51F1 /* Parse.framework */; };
+		F1BD8A31188B755E008D51F1 /* pretzel.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD8A2B188B755E008D51F1 /* pretzel.png */; };
+		F1BD8A32188B755E008D51F1 /* cheesesticks.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD8A2C188B755E008D51F1 /* cheesesticks.png */; };
+		F1BD8A33188B755E008D51F1 /* cheetos.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD8A2D188B755E008D51F1 /* cheetos.png */; };
+		F1BD8A34188B755E008D51F1 /* breadsticks.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD8A2E188B755E008D51F1 /* breadsticks.png */; };
+		F1BD8A35188B755E008D51F1 /* nuggets.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD8A2F188B755E008D51F1 /* nuggets.png */; };
+		F1BD8A36188B755E008D51F1 /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD8A30188B755E008D51F1 /* banana.png */; };
+		F1BD8A41188B8BA3008D51F1 /* fries.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD8A40188B8BA3008D51F1 /* fries.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1682579188B9721009BA486 /* sorry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sorry.png; sourceTree = "<group>"; };
+		F168257B188BAFE9009BA486 /* whisper.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = whisper.m4a; sourceTree = "<group>"; };
+		F168257D188BB072009BA486 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F1BD89D5188B5580008D51F1 /* Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BD89D8188B5580008D51F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F1BD89DA188B5580008D51F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +95,13 @@
 		F1BD8A24188B576C008D51F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F1BD8A26188B5774008D51F1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F1BD8A28188B5791008D51F1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F1BD8A2B188B755E008D51F1 /* pretzel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pretzel.png; sourceTree = "<group>"; };
+		F1BD8A2C188B755E008D51F1 /* cheesesticks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheesesticks.png; sourceTree = "<group>"; };
+		F1BD8A2D188B755E008D51F1 /* cheetos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheetos.png; sourceTree = "<group>"; };
+		F1BD8A2E188B755E008D51F1 /* breadsticks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breadsticks.png; sourceTree = "<group>"; };
+		F1BD8A2F188B755E008D51F1 /* nuggets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nuggets.png; sourceTree = "<group>"; };
+		F1BD8A30188B755E008D51F1 /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
+		F1BD8A40188B8BA3008D51F1 /* fries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fries.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F168257E188BB072009BA486 /* AVFoundation.framework in Frameworks */,
 				F1BD8A27188B5774008D51F1 /* AudioToolbox.framework in Frameworks */,
 				F1BD8A25188B576C008D51F1 /* CFNetwork.framework in Frameworks */,
 				F1BD8A23188B5765008D51F1 /* CoreLocation.framework in Frameworks */,
@@ -142,6 +163,7 @@
 		F1BD89D7188B5580008D51F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F168257D188BB072009BA486 /* AVFoundation.framework */,
 				F1BD8A28188B5791008D51F1 /* Parse.framework */,
 				F1BD8A26188B5774008D51F1 /* AudioToolbox.framework */,
 				F1BD8A24188B576C008D51F1 /* CFNetwork.framework */,
@@ -165,7 +187,7 @@
 		F1BD89DE188B5580008D51F1 /* Finder */ = {
 			isa = PBXGroup;
 			children = (
-				F1BD8A0D188B55B5008D51F1 /* caviar.png */,
+				F1BD8A2A188B6EA9008D51F1 /* Food Pics */,
 				F1BD89E7188B5580008D51F1 /* FAppDelegate.h */,
 				F1BD89E8188B5580008D51F1 /* FAppDelegate.m */,
 				F1BD89EA188B5580008D51F1 /* Main.storyboard */,
@@ -206,6 +228,23 @@
 				F1BD8A00188B5580008D51F1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1BD8A2A188B6EA9008D51F1 /* Food Pics */ = {
+			isa = PBXGroup;
+			children = (
+				F168257B188BAFE9009BA486 /* whisper.m4a */,
+				F1682579188B9721009BA486 /* sorry.png */,
+				F1BD8A40188B8BA3008D51F1 /* fries.png */,
+				F1BD8A2B188B755E008D51F1 /* pretzel.png */,
+				F1BD8A2C188B755E008D51F1 /* cheesesticks.png */,
+				F1BD8A2D188B755E008D51F1 /* cheetos.png */,
+				F1BD8A2E188B755E008D51F1 /* breadsticks.png */,
+				F1BD8A2F188B755E008D51F1 /* nuggets.png */,
+				F1BD8A30188B755E008D51F1 /* banana.png */,
+				F1BD8A0D188B55B5008D51F1 /* caviar.png */,
+			);
+			name = "Food Pics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +325,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1BD89F1188B5580008D51F1 /* Images.xcassets in Resources */,
+				F1BD8A34188B755E008D51F1 /* breadsticks.png in Resources */,
 				F1BD89E3188B5580008D51F1 /* InfoPlist.strings in Resources */,
+				F1BD8A31188B755E008D51F1 /* pretzel.png in Resources */,
+				F1BD8A36188B755E008D51F1 /* banana.png in Resources */,
+				F1BD8A41188B8BA3008D51F1 /* fries.png in Resources */,
+				F1BD8A33188B755E008D51F1 /* cheetos.png in Resources */,
+				F168257A188B9721009BA486 /* sorry.png in Resources */,
+				F1BD8A32188B755E008D51F1 /* cheesesticks.png in Resources */,
+				F168257C188BAFE9009BA486 /* whisper.m4a in Resources */,
+				F1BD8A35188B755E008D51F1 /* nuggets.png in Resources */,
 				F1BD89EC188B5580008D51F1 /* Main.storyboard in Resources */,
 				F1BD8A0E188B55B5008D51F1 /* caviar.png in Resources */,
 			);
@@ -527,6 +575,7 @@
 				F1BD8A09188B5580008D51F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1BD8A0A188B5580008D51F1 /* Build configuration list for PBXNativeTarget "FinderTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +584,7 @@
 				F1BD8A0C188B5580008D51F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

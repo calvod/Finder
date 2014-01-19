@@ -49,9 +49,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="caviar.png" translatesAutoresizingMaskIntoConstraints="NO" id="I0L-cc-iiM">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I0L-cc-iiM">
                                 <rect key="frame" x="27" y="152" width="273" height="273"/>
                                 <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="kKT-Fx-b6K" appends="YES" id="wWb-pe-MAF"/>
+                                    <outletCollection property="gestureRecognizers" destination="Kbq-1K-pEE" appends="YES" id="lyG-cy-nYp"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -62,13 +67,20 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="kKT-Fx-b6K">
+                    <connections>
+                        <action selector="didSwipeLeft:" destination="vXZ-lx-hvc" id="gbi-SI-MqT"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="Kbq-1K-pEE">
+                    <connections>
+                        <action selector="didSwipeRight:" destination="vXZ-lx-hvc" id="RxL-Sg-fRe"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="380" y="90"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="caviar.png" width="300" height="300"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

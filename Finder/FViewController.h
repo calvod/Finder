@@ -13,8 +13,14 @@
 
 @interface FViewController : UIViewController {
     IBOutlet UIImageView *foodPic;
+    
 }
+@property (nonatomic, strong) NSArray *foodChoices;
+@property (nonatomic, strong) UISwipeGestureRecognizer *swipeLeft;
+@property (nonatomic, strong) UISwipeGestureRecognizer *swipeRight;
+@property (nonatomic, strong) NSMutableArray *alreadyJudgedFood;
 
-@property (nonatomic, strong) NSMutableArray *productViews;
+-(IBAction)didSwipeLeft:(id)sender;
+-(IBAction)didSwipeRight:(id)sender;
 
 @end

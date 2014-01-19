@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 
-@interface FAppDelegate : UIResponder <UIApplicationDelegate>
+@interface FAppDelegate : UIResponder <UIApplicationDelegate, AVAudioPlayerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
